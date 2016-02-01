@@ -2,7 +2,7 @@
   "name": "react-a11y",
   "version": "0.2.8",
   "description": "Warns about potential accessibility issues with your React elements.",
-  "main": "./lib/index.js",
+  "main": "./dist/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/rackt/react-a11y.git"
