@@ -12,7 +12,7 @@
   "scripts": {
     "test": "jsxhint . && karma start --single-run",
     "watch-tests": "npm test -- --watch",
-    "prepublish": "babel --optional runtime ./lib --out-dir ./dist",
+    "preinstall": "babel --optional runtime lib --out-dir dist",
     "release": "release"
   },
   "authors": [
