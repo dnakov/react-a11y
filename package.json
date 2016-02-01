@@ -2,7 +2,7 @@
   "name": "react-a11y",
   "version": "0.2.8",
   "description": "Warns about potential accessibility issues with your React elements.",
-  "main": "./dist/index.js",
+  "main": "./lib/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/rackt/react-a11y.git"
@@ -12,7 +12,7 @@
   "scripts": {
     "test": "jsxhint . && karma start --single-run",
     "watch-tests": "npm test -- --watch",
-    "preinstall": "babel --optional runtime ./lib --out-dir ./dist",
+    "prepublish": "babel --optional runtime ./lib --out-dir ./dist",
     "release": "release"
   },
   "authors": [
